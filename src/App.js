@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import About from './components/About';
 
 // CSS
 import './custom/layout.css';
@@ -12,6 +13,7 @@ const App = () => {
     <Fragment>
       <Navbar />
       <Header />
+      <About />
     </Fragment>
   );
 };

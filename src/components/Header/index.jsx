@@ -12,33 +12,35 @@ const index = () => {
         <div className='row h-100'>
           <div className='col my-auto'>
             <div className='header-content text-center mx-auto'>
-              <h1 data-aos='zoom-out-up' data-aos-duration='2000'>
-                Donastien Karoumbata
+              <h1
+                className='display-3'
+                data-aos='zoom-out-up'
+                data-aos-duration='2000'
+              >
+                Donastien <span className='font-weight-bold'>Karoumbata</span>
               </h1>
-              <h4 className='mb-5' data-aos='fade-up' data-aos-duration='2000'>
+              <h3 className='mb-5' data-aos='fade-up' data-aos-duration='2000'>
                 Web Developer ReactJS / NodeJS
-              </h4>
-              <h4 data-aos='fade-up' data-aos-duration='2000'>
+              </h3>
+              <h2
+                className='text-danger'
+                data-aos='fade-up'
+                data-aos-duration='3000'
+              >
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString('Hello, ')
-                      .pauseFor(1000)
-                      .typeString("you're welcome")
-                      .callFunction(() => {
-                        console.log('String typed out!');
-                      })
+
+                      .typeString("You're welcome")
                       .pauseFor(500)
                       .typeString('.')
-                      .pauseFor(5000)
-                      .deleteAll()
                       .callFunction(() => {
-                        console.log('All strings were deleted');
+                        console.log('String typed out!');
                       })
                       .start();
                   }}
                 />
-              </h4>
+              </h2>
             </div>
           </div>
         </div>
