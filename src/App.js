@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Navbar from './components/Navbar';
+
+// CSS
+import './custom/layout.css';
+import './custom/button.css';
 
 const App = () => {
   return (
-    <div>
-      <button className='btn btn-primary'>test</button>
-    </div>
+    <Fragment>
+      <Navbar />
+    </Fragment>
   );
 };
 
