@@ -10,10 +10,14 @@ const index = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-6 my-auto'>
-            <h4 className='text-warning text-justify font-weight-bold'>
+            <h4
+              className='text-warning text-justify font-weight-bold'
+              data-aos='fade-up'
+              data-aos-duration='500'
+            >
               Lorem ipsum dolor
             </h4>
-            <p className='my-auto'>
+            <p className='my-auto' data-aos='fade-up' data-aos-duration='1000'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               vulputate lectus. Integer felis risus, facilisis cursus lacus eu,
               rhoncus eleifend quam. Aliquam non vulputate orci. Proin
@@ -24,7 +28,11 @@ const index = () => {
               tellus lectus porttitor leo, et commodo lectus lorem in lectus.
             </p>
             <br />
-            <h4 className='text-danger'>
+            <h4
+              className='text-danger'
+              data-aos='fade-up'
+              data-aos-duration='1500'
+            >
               Je vous accompagne dans la conception de vos projets web avec pour
               but votre satisfaction d’un produit de qualité.
             </h4>

@@ -4,6 +4,9 @@ import getcashflowDashboard from '../../img/getcashflow_dashboard.jpg';
 import discoveryLanding from '../../img/spacexdiscovery_landingpage.jpg';
 import discoveryMissions from '../../img/spacexdiscovery_missions.jpg';
 import discoveryRockets from '../../img/rockets.jpg';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
   Carousel,
   CarouselItem,
@@ -41,6 +44,7 @@ const items = [
 ];
 
 const Portfolio = (props) => {
+  AOS.init();
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -81,7 +85,11 @@ const Portfolio = (props) => {
 
   return (
     <section className='portfolio mb-5' id='portfolio'>
-      <div className='container text-center'>
+      <div
+        className='container text-center'
+        data-aos='zoom-out'
+        data-aos-duration='2000'
+      >
         <Carousel activeIndex={activeIndex} next={next} previous={previous}>
           <CarouselIndicators
             items={items}
