@@ -50,3 +50,29 @@ section.about p {
   font-size: 16px;
   color: gainsboro;
 }
+
+section.about img {
+  width: 100%;
+  height: auto;
+}
+
+section.portfolio {
+  position: relative;
+  padding: 150px 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+section.portfolio p {
+  font-size: 16px;
+  color: gainsboro;
+}
+
+.item-caption {
+  margin-top: 7em;
+}
+
+.img-carousel {
+  width: 75%;
+  height: auto;
+}

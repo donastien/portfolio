@@ -19,10 +19,10 @@ const index = () => {
               >
                 Donastien <span className='font-weight-bold'>Karoumbata</span>
               </h1>
-              <h3 className='mb-5' data-aos='fade-up' data-aos-duration='2000'>
+              <h2 className='mb-5' data-aos='fade-up' data-aos-duration='2000'>
                 Web Developer ReactJS / NodeJS
-              </h3>
-              <h2
+              </h2>
+              <h1
                 className='text-danger'
                 data-aos='fade-up'
                 data-aos-duration='3000'
@@ -40,7 +40,7 @@ const index = () => {
                       .start();
                   }}
                 />
-              </h2>
+              </h1>
             </div>
           </div>
         </div>

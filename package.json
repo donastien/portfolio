@@ -12,6 +12,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
     "typewriter-effect": "^2.13.1"
   },
   "scripts": {

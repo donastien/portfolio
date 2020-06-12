@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 // CSS
 import './custom/layout.css';
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Header />
       <About />
+      <Portfolio />
     </Fragment>
   );
 };
