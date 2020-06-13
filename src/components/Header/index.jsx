@@ -15,11 +15,11 @@ const index = () => {
               <h1
                 className='display-3'
                 data-aos='zoom-out-up'
-                data-aos-duration='2000'
+                data-aos-duration='3000'
               >
                 Donastien <span className='font-weight-bold'>Karoumbata</span>
               </h1>
-              <h2 className='mb-5' data-aos='fade-up' data-aos-duration='2000'>
+              <h2 className='mb-5' data-aos='fade-up' data-aos-duration='3000'>
                 Web Developer ReactJS / NodeJS
               </h2>
               <h1

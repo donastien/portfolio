@@ -19,6 +19,9 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   font-family: 'Poppins', sans-serif;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-position-y: 50%;
 }
 
 header.masthead .header-content {
@@ -75,4 +78,11 @@ section.portfolio p {
 .img-carousel {
   width: 75%;
   height: auto;
+}
+
+section.skills {
+  position: relative;
+  padding: 150px 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }

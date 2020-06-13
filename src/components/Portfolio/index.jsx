@@ -84,7 +84,7 @@ const Portfolio = (props) => {
   });
 
   return (
-    <section className='portfolio mb-5' id='portfolio'>
+    <section className='portfolio' id='portfolio'>
       <div
         className='container text-center'
         data-aos='zoom-out'
