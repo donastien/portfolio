@@ -1,3 +1,7 @@
 .navbar {
   font-family: 'Poppins', sans-serif;
 }
+
+.nav-item > .active {
+  border-bottom: 1px solid #00f2c3;
+}

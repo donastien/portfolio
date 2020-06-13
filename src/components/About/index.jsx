@@ -27,15 +27,6 @@ const index = () => {
               vestibulum risus. Morbi posuere, felis et sollicitudin sodales,
               tellus lectus porttitor leo, et commodo lectus lorem in lectus.
             </p>
-            <br />
-            <h4
-              className='text-danger'
-              data-aos='fade-up'
-              data-aos-duration='1500'
-            >
-              Je vous accompagne dans la conception de vos projets web avec pour
-              but votre satisfaction d’un produit de qualité.
-            </h4>
           </div>
           <div className='col-lg-6'>
             {' '}
@@ -46,6 +37,22 @@ const index = () => {
               data-aos-duration='2000'
             />
           </div>
+        </div>
+        <div className='row'>
+          <blockquote
+            className='blockquote text-center text-danger'
+            data-aos='fade-up'
+            data-aos-duration='1500'
+          >
+            <p className='mb-0'>
+              Je vous accompagne dans la conception de vos projets web avec pour
+              but votre satisfaction d’un produit de qualité.
+            </p>
+            <footer className='blockquote-footer'>
+              Donastien Karoumbata{' '}
+              <cite title='Source Title'>Web Developer Fullstack</cite>
+            </footer>
+          </blockquote>
         </div>
       </div>
     </section>

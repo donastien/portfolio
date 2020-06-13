@@ -4,6 +4,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
+import Reference from './components/Reference';
+import Footer from './components/Footer';
 
 // CSS
 import './custom/layout.css';
@@ -18,6 +20,8 @@ const App = () => {
       <About />
       <Portfolio />
       <Skills />
+      <Reference />
+      <Footer />
     </Fragment>
   );
 };
