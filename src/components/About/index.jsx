@@ -43,6 +43,7 @@ const index = () => {
               <br />
               N'hésitez pas à me contacter par email ou sur LinkedIn pour
               pouvoir échanger ou organiser un appel télephonique.
+              <br /> Vous pouvez aussi télécharger mon CV ci-dessous.
             </p>
             <br />
             <h1
@@ -58,6 +59,9 @@ const index = () => {
               </a>{' '}
               <a href='https://github.com/donastien'>
                 <i class='fab fa-github'></i>
+              </a>{' '}
+              <a href='download/donastienkaroumbata.pdf' download>
+                <i class='fas fa-file-download'></i>
               </a>
             </h1>
           </div>

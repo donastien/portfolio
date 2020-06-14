@@ -22,7 +22,7 @@ header.masthead {
   font-family: 'Poppins', sans-serif;
   background-image: url(../img/background.png);
   background-size: cover;
-  background-position-y: 100%;
+  background-position-y: 70%;
 }
 
 header.masthead .header-content {
@@ -108,7 +108,7 @@ section.ref {
 }
 
 section.ref .container {
-  margin-top: 10em;
+  margin-top: 11em;
 }
 
 /*---------FOOTER---------*/

@@ -4,6 +4,8 @@ import getcashflowDashboard from '../../img/getcashflow_dashboard.jpg';
 import discoveryLanding from '../../img/spacexdiscovery_landingpage.jpg';
 import discoveryMissions from '../../img/spacexdiscovery_missions.jpg';
 import discoveryRockets from '../../img/rockets.jpg';
+import gameoflife from '../../img/gameoflife.PNG';
+import threejstest from '../../img/threejs.PNG';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,7 +21,7 @@ const items = [
   {
     src: getcashflowLanding,
     altText: 'Slide 1',
-    caption: 'Cashflow',
+    caption: 'Getcashflow.io',
   },
   {
     src: getcashflowDashboard,
@@ -29,7 +31,7 @@ const items = [
   {
     src: discoveryLanding,
     altText: 'Slide 3',
-    caption: 'Space X Discovery',
+    caption: 'Spacexdiscovery.herokuapp.com',
   },
   {
     src: discoveryMissions,
@@ -40,6 +42,16 @@ const items = [
     src: discoveryRockets,
     altText: 'Slide 5',
     caption: 'Space X Discovery',
+  },
+  {
+    src: gameoflife,
+    altText: 'Slide 5',
+    caption: 'Game of Life',
+  },
+  {
+    src: threejstest,
+    altText: 'Slide 5',
+    caption: 'Premier test de ThreeJS',
   },
 ];
 
