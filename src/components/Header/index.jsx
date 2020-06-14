@@ -30,12 +30,17 @@ const index = () => {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-
+                      .typeString('Hello,')
+                      .callFunction(() => {
+                        console.log('String typed out!');
+                      })
+                      .pauseFor(500)
+                      .deleteAll()
                       .typeString("You're welcome")
                       .pauseFor(500)
                       .typeString('.')
                       .callFunction(() => {
-                        console.log('String typed out!');
+                        console.log('All strings were deleted');
                       })
                       .start();
                   }}
