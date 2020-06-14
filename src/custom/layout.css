@@ -88,7 +88,7 @@ section.portfolio p {
 section.skills {
   position: relative;
   width: 100%;
-  padding-top: 300px;
+  padding-top: 350px;
   padding-bottom: 100px;
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -108,7 +108,7 @@ section.ref {
 }
 
 section.ref .container {
-  margin-top: 9em;
+  margin-top: 10em;
 }
 
 /*---------FOOTER---------*/

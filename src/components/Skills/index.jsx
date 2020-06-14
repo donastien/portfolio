@@ -7,7 +7,7 @@ const index = () => {
   return (
     <section className='skills' id='skills'>
       <div className='container'>
-        <div className='row'>
+        <div className='row d-flex justify-content-center'>
           <h1 className='mr-2' data-aos='fade-up' data-aos-duration='1000'>
             {' '}
             <span class='badge badge-secondary'>

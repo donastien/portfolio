@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 
 const index = () => {
   AOS.init();
+
   return (
     <section className='about' id='about'>
       <div className='container'>
@@ -15,18 +16,50 @@ const index = () => {
               data-aos='fade-up'
               data-aos-duration='500'
             >
-              Lorem ipsum dolor
+              Everyday Coder.
             </h4>
-            <p className='my-auto' data-aos='fade-up' data-aos-duration='1000'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              vulputate lectus. Integer felis risus, facilisis cursus lacus eu,
-              rhoncus eleifend quam. Aliquam non vulputate orci. Proin
-              porttitor, felis id gravida porta, erat nibh volutpat libero,
-              elementum dictum nibh ex sed libero. Vivamus non tincidunt lectus,
-              nec vestibulum felis. Ut imperdiet dui pulvinar, cursus odio ut,
-              vestibulum risus. Morbi posuere, felis et sollicitudin sodales,
-              tellus lectus porttitor leo, et commodo lectus lorem in lectus.
+            <p
+              className='my-auto text-justify'
+              data-aos='fade-up'
+              data-aos-duration='1000'
+            >
+              Je me présente, Donastien, 25 ans de Nantes mais ouvert à toutes
+              destinations. Mon but, trouver de nouveaux challenges, apprendre
+              des expériences de chacun et découvrir de nouvelles technos.
+              Passionné et autodidacte, je me forme et documente constamment.
+              <br />
+              <br />
+              Vous avez besoin d’une application from scratch, de nouvelles
+              features contactez-moi pour que l’on puisse échanger de vos idées
+              ou de vos missions à réaliser.
+              <br />
+              <br />
+              Comment je travaille ? <br />
+              <br />
+              Dans les temps impartis en collaboration avec vous en communiquant
+              régulièrement sur l'avancement de votre projet, pour que votre
+              application vous apporte un maximum de valeurs ajoutées.
+              <br />
+              <br />
+              N'hésitez pas à me contacter par email ou sur LinkedIn pour
+              pouvoir échanger ou organiser un appel télephonique.
             </p>
+            <br />
+            <h1
+              className='text-left'
+              data-aos='fade-up'
+              data-aos-duration='1000'
+            >
+              <a href='mailto:donastien.karoumbata@gmail.com'>
+                <i class='fas fa-paper-plane'></i>
+              </a>{' '}
+              <a href='https://www.linkedin.com/in/dkaroumbata/'>
+                <i class='fab fa-linkedin-in'></i>
+              </a>{' '}
+              <a href='https://github.com/donastien'>
+                <i class='fab fa-github'></i>
+              </a>
+            </h1>
           </div>
           <div className='col-lg-6'>
             {' '}
@@ -50,7 +83,7 @@ const index = () => {
             </p>
             <footer className='blockquote-footer'>
               Donastien Karoumbata{' '}
-              <cite title='Source Title'>Web Developer Fullstack</cite>
+              <cite title='Source Title'>Fullstack Web Developer</cite>
             </footer>
           </blockquote>
         </div>
